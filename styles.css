@@ -649,12 +649,13 @@ h3 {
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
   padding: 34px clamp(18px, 4vw, 56px);
   color: rgba(255, 255, 255, 0.72);
   background: var(--ink);
   font-size: 14px;
+  text-align: center;
 }
 
 .footer p {
