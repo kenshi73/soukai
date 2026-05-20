@@ -331,7 +331,23 @@ h3 {
 }
 
 .intro-section {
-  background: var(--paper);
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(16, 32, 20, 0.88), rgba(20, 53, 31, 0.68) 48%, rgba(20, 53, 31, 0.32)),
+    linear-gradient(0deg, rgba(12, 24, 15, 0.52), rgba(12, 24, 15, 0.12)),
+    url("assets/soukai-2025-1251.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-section .section-kicker {
+  color: #cfff9a;
+}
+
+.intro-section .split p {
+  color: rgba(255, 255, 255, 0.84);
 }
 
 .purpose-grid {
@@ -341,10 +357,11 @@ h3 {
 
 .purpose-card {
   padding: 24px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
-  background: #fff;
-  box-shadow: var(--shadow);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(12px);
 }
 
 .purpose-card span {
