@@ -378,10 +378,15 @@ h3 {
 
 .purpose-card h3 {
   margin-bottom: 8px;
+  color: var(--ink);
 }
 
 .purpose-card p {
   margin-bottom: 0;
+  color: var(--muted);
+}
+
+.intro-section .purpose-card p {
   color: var(--muted);
 }
 
