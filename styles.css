@@ -184,6 +184,13 @@ h1 {
   line-height: 1.08;
 }
 
+.hero-title-accent {
+  display: inline-block;
+  margin: 0 0.08em;
+  color: var(--base);
+  text-shadow: 0 0 28px rgba(68, 225, 65, 0.35);
+}
+
 h2 {
   margin-bottom: 20px;
   font-size: clamp(28px, 4vw, 46px);
