@@ -335,7 +335,8 @@ h3 {
 .caution p,
 .entry p,
 .audience p,
-.sponsor-box p {
+.sponsor-box p,
+.archive p {
   color: var(--muted);
   font-size: 17px;
 }
@@ -610,6 +611,23 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.sponsor-list {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 22px;
+  padding-left: 1.2em;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.sponsor-list li::marker {
+  color: var(--base);
+}
+
+.sponsor-box p {
+  margin-bottom: 8px;
+}
+
 .mail-link {
   display: inline-block;
   margin-top: 4px;
@@ -619,6 +637,14 @@ h3 {
   text-decoration-color: var(--base);
   text-decoration-thickness: 3px;
   text-underline-offset: 5px;
+}
+
+.archive-section {
+  background: #fff;
+}
+
+.archive {
+  max-width: 900px;
 }
 
 .sponsor-gallery {
